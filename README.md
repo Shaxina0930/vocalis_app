@@ -42,9 +42,16 @@ vocalis/
 │       ├── Task.java         # Task model
 │       ├── TaskManager.java  # Task logic (Singleton)
 │       ├── TaskStorage.java  # Database operations
-│       └── SphinxSTT.java    # Speech recognition
+│       ├──SST/
+│             ├──AudioCapture.java
+│             ├──SpeechRecognizer.java
+│             ├──VoiceCommandHandler.java
+│        
+│      └── TTS/
+│            ├──TextToSpeech.java 
+│
 ├── lib/
-│   └── sphinx4-core.jar
+│   └── postgresql-42.7.8.jar
 └── icons/
 
 ## Future Improvements
@@ -56,6 +63,6 @@ vocalis/
 - Cloud sync support
 
 ## Author
-[Your Name]  
-University Project - [Course Name]  
-[Year]
+ 
+University Team Project - [Application Programming in Java]  
+[2025]
